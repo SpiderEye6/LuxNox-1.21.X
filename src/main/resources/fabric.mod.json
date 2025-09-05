@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "luxnox",
+	"version": "${version}",
+	"name": "LuxNox",
+	"description": "A mod about the Sun and Moon. Proof of concept and brainchild of two lovers.",
+	"authors": [
+		"Spidereye"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/luxnox/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.spidereye.luxnox.LuxNox"
+		],
+		"fabric-datagen": [
+			"net.spidereye.luxnox.LuxNoxDataGenerator"
+		]
+	},
+	"mixins": [
+		"luxnox.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
