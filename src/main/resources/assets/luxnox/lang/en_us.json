@@ -1,0 +1,13 @@
+{
+  "item.luxnox.luxite_dust": "Luxite Dust",
+  "item.luxnox.luxite_ingot": "Luxite Ingot",
+  "item.luxnox.luxite_upgrade_smithing_template": "Luxite Upgrade",
+
+  "item.luxnox.luxite_infused_diamond_sword": "Luxite Infused Diamond Sword",
+  "item.luxnox.luxite_infused_diamond_pickaxe": "Luxite Infused Diamond Pickaxe",
+  "item.luxnox.luxite_infused_diamond_shovel": "Luxite Infused Diamond Shovel",
+  "item.luxnox.luxite_infused_diamond_axe": "Luxite Infused Diamond Axe",
+  "item.luxnox.luxite_infused_diamond_hoe": "Luxite Infused Diamond Hoe",
+
+  "itemgroup.luxnox.luxite_items_group": "Luxite Items"
+}
