@@ -1,0 +1,1 @@
+Fabric Minecraft mod for 1.21 created by Spidereye and AceArtemis. This mod is intended to be a practice for the both of us so the project has been split into three components. All Luxite related developments are done by Spidereye and all Noxite related developments are done by AceArtemis. Additionally all Eclipse related developments will be programmed by both developers.
