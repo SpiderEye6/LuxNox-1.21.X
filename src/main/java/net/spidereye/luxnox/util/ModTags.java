@@ -18,7 +18,8 @@ public class ModTags {
     }
 
     public static class Items {
-
+        public static final TagKey<Item> NOXITE = createTag("noxite");
+        public static final TagKey<Item> LUXITE = createTag("luxite");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, Identifier.of(LuxNox.MOD_ID, name));

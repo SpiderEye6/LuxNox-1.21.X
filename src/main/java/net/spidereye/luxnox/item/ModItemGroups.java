@@ -26,6 +26,11 @@ public class ModItemGroups {
                         entries.add(ModItems.LUXITE_INFUSED_DIAMOND_AXE);
                         entries.add(ModItems.LUXITE_INFUSED_DIAMOND_HOE);
 
+                        entries.add(ModItems.LUXITE_INFUSED_DIAMOND_HELMET);
+                        entries.add(ModItems.LUXITE_INFUSED_DIAMOND_CHESTPLATE);
+                        entries.add(ModItems.LUXITE_INFUSED_DIAMOND_LEGGINGS);
+                        entries.add(ModItems.LUXITE_INFUSED_DIAMOND_BOOTS);
+
                     })).build()) ;
 
     public static void registerItemGroups() {

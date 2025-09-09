@@ -28,6 +28,19 @@ public class ModItems {
             new HoeItem(ModToolMaterials.LUXITE_INFUSED, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.LUXITE_INFUSED, -3.0F, 0.0F))));
 
+    public static final Item LUXITE_INFUSED_DIAMOND_HELMET = registerItem("luxite_infused_diamond_helmet",
+            new ArmorItem(ModArmorMaterials.LUXITE_INFUSED_DIAMOND_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(33))));
+    public static final Item LUXITE_INFUSED_DIAMOND_CHESTPLATE = registerItem("luxite_infused_diamond_chestplate",
+            new ArmorItem(ModArmorMaterials.LUXITE_INFUSED_DIAMOND_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(33))));
+    public static final Item LUXITE_INFUSED_DIAMOND_LEGGINGS = registerItem("luxite_infused_diamond_leggings",
+            new ArmorItem(ModArmorMaterials.LUXITE_INFUSED_DIAMOND_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(33))));
+    public static final Item LUXITE_INFUSED_DIAMOND_BOOTS = registerItem("luxite_infused_diamond_boots",
+            new ArmorItem(ModArmorMaterials.LUXITE_INFUSED_DIAMOND_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(33))));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(LuxNox.MOD_ID, name), item);
