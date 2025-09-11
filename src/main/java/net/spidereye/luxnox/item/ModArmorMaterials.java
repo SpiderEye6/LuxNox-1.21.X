@@ -16,15 +16,15 @@ import java.util.List;
 import java.util.function.Supplier;
 
 public class ModArmorMaterials {
-    public static final RegistryEntry<ArmorMaterial> LUXITE_INFUSED_DIAMOND_ARMOR_MATERIAL = registerArmorMaterial("luxite_infused_diamond_armor_material",
+    public static final RegistryEntry<ArmorMaterial> LUXITE_INFUSED_DIAMOND_ARMOR_MATERIAL = registerArmorMaterial("luxite_infused_diamond",
             () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
                 map.put(ArmorItem.Type.BOOTS, 3);
                 map.put(ArmorItem.Type.LEGGINGS, 6);
-                map.put(ArmorItem.Type.CHESTPLATE, 8);
-                map.put(ArmorItem.Type.HELMET, 3);
-                map.put(ArmorItem.Type.BODY, 11);
-            }), 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, () -> Ingredient.ofItems(ModItems.LUXITE_DUST),
-                    List.of(new ArmorMaterial.Layer(Identifier.of(LuxNox.MOD_ID, "luxite_dust"))), 2.0f, 0.1f));
+        map.put(ArmorItem.Type.CHESTPLATE, 8);
+        map.put(ArmorItem.Type.HELMET, 3);
+        map.put(ArmorItem.Type.BODY, 11);
+    }), 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, () -> Ingredient.ofItems(ModItems.LUXITE_DUST),
+            List.of(new ArmorMaterial.Layer(Identifier.of(LuxNox.MOD_ID, "luxite_infused_diamond"))), 2.0f, 0.1f));
 
     public static RegistryEntry<ArmorMaterial> registerArmorMaterial(String name, Supplier<ArmorMaterial> material) {
         return Registry.registerReference(Registries.ARMOR_MATERIAL, Identifier.of(LuxNox.MOD_ID, name), material.get());
