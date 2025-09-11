@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "luxnox:luxite_dust"
+  },
+  "base": {
+    "item": "minecraft:diamond_sword"
+  },
+  "result": {
+    "count": 1,
+    "id": "luxnox:luxite_infused_diamond_sword"
+  },
+  "template": {
+    "item": "luxnox:luxite_upgrade_smithing_template"
+  }
+}
