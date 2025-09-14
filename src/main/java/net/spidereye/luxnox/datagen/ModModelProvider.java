@@ -34,5 +34,16 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.LUXITE_INFUSED_DIAMOND_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.LUXITE_INFUSED_DIAMOND_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.LUXITE_INFUSED_DIAMOND_BOOTS));
+
+        itemModelGenerator.register(ModItems.LUXITE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.LUXITE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.LUXITE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.LUXITE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.LUXITE_HOE, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.LUXITE_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.LUXITE_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.LUXITE_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.LUXITE_BOOTS));
     }
 }

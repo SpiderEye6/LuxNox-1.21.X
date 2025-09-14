@@ -3,6 +3,7 @@ package net.spidereye.luxnox.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
+import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
@@ -36,5 +37,77 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
         offerSmithingTemplateCopyingRecipe(exporter, ModItems.LUXITE_UPGRADE_SMITHING_TEMPLATE, ModItems.LUXITE_DUST);
+
+// ------------------------------------------------------------------- LUXITE TOOLS ____________________________________________________________________________________
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.LUXITE_SWORD)
+                .pattern("#")
+                .pattern("#")
+                .pattern("S")
+                .input('#', ModItems.LUXITE_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.LUXITE_INGOT), conditionsFromItem(ModItems.LUXITE_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.LUXITE_PICKAXE)
+                .pattern("###")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('#', ModItems.LUXITE_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.LUXITE_INGOT), conditionsFromItem(ModItems.LUXITE_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.LUXITE_SHOVEL)
+                .pattern("#")
+                .pattern("S")
+                .pattern("S")
+                .input('#', ModItems.LUXITE_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.LUXITE_INGOT), conditionsFromItem(ModItems.LUXITE_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.LUXITE_AXE)
+                .pattern("##")
+                .pattern("#S")
+                .pattern(" S")
+                .input('#', ModItems.LUXITE_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.LUXITE_INGOT), conditionsFromItem(ModItems.LUXITE_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.LUXITE_HOE)
+                .pattern("##")
+                .pattern(" S")
+                .pattern(" S")
+                .input('#', ModItems.LUXITE_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.LUXITE_INGOT), conditionsFromItem(ModItems.LUXITE_INGOT))
+                .offerTo(exporter);
+
+// ---------------------------------------------------------------------------------- LUXITE ARMOR -------------------------------------------------------------
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LUXITE_HELMET)
+                .pattern("###")
+                .pattern("# #")
+                .pattern("   ")
+                .input('#', ModItems.LUXITE_INGOT)
+                .criterion(hasItem(ModItems.LUXITE_INGOT), conditionsFromItem(ModItems.LUXITE_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LUXITE_CHESTPLATE)
+                .pattern("# #")
+                .pattern("###")
+                .pattern("###")
+                .input('#', ModItems.LUXITE_INGOT)
+                .criterion(hasItem(ModItems.LUXITE_INGOT), conditionsFromItem(ModItems.LUXITE_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LUXITE_LEGGINGS)
+                .pattern("###")
+                .pattern("# #")
+                .pattern("# #")
+                .input('#', ModItems.LUXITE_INGOT)
+                .criterion(hasItem(ModItems.LUXITE_INGOT), conditionsFromItem(ModItems.LUXITE_INGOT))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LUXITE_BOOTS)
+                .pattern("# #")
+                .pattern("# #")
+                .pattern("   ")
+                .input('#', ModItems.LUXITE_INGOT)
+                .criterion(hasItem(ModItems.LUXITE_INGOT), conditionsFromItem(ModItems.LUXITE_INGOT))
+                .offerTo(exporter);
     }
 }

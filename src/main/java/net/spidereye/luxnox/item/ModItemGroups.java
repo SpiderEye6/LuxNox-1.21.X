@@ -2,7 +2,6 @@ package net.spidereye.luxnox.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -30,6 +29,17 @@ public class ModItemGroups {
                         entries.add(ModItems.LUXITE_INFUSED_DIAMOND_CHESTPLATE);
                         entries.add(ModItems.LUXITE_INFUSED_DIAMOND_LEGGINGS);
                         entries.add(ModItems.LUXITE_INFUSED_DIAMOND_BOOTS);
+
+                        entries.add(ModItems.LUXITE_SWORD);
+                        entries.add(ModItems.LUXITE_PICKAXE);
+                        entries.add(ModItems.LUXITE_SHOVEL);
+                        entries.add(ModItems.LUXITE_AXE);
+                        entries.add(ModItems.LUXITE_HOE);
+
+                        entries.add(ModItems.LUXITE_HELMET);
+                        entries.add(ModItems.LUXITE_CHESTPLATE);
+                        entries.add(ModItems.LUXITE_LEGGINGS);
+                        entries.add(ModItems.LUXITE_BOOTS);
 
                     })).build()) ;
 
