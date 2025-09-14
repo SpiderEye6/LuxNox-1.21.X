@@ -2,18 +2,17 @@ package net.spidereye.luxnox.item;
 
 import com.google.common.base.Suppliers;
 import net.minecraft.block.Block;
-import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.registry.tag.TagKey;
 import net.spidereye.luxnox.util.ModTags;
 
-import java.util.Objects;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    LUXITE_INFUSED(ModTags.Blocks.NEEDS_LUXITE_INFUSED_TOOL, 1561, 8.0F, 3.0F, 20, () -> Ingredient.ofItems(Items.DIAMOND));
+    LUXITE_INFUSED(ModTags.Blocks.INCORRECT_FOR_LUXITE_INFUSED_DIAMOND_TOOL, 1561, 8.0F, 3.0F, 20, () -> Ingredient.ofItems(Items.DIAMOND)),
+    LUXITE(ModTags.Blocks.INCORRECT_FOR_LUXITE_TOOL, 2031, 9.0F, 4.0F, 30, () -> Ingredient.ofItems(ModItems.LUXITE_INGOT));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;
@@ -59,6 +58,6 @@ public enum ModToolMaterials implements ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return (Ingredient)this.repairIngredient.get();
+        return this.repairIngredient.get();
     }
 }
