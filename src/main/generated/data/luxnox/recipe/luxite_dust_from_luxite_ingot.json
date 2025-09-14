@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "luxnox:luxite_ingot"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "luxnox:luxite_dust"
+  }
+}

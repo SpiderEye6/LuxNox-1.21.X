@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "luxnox:item/luxite_infused_diamond_sword"
+  }
+}
