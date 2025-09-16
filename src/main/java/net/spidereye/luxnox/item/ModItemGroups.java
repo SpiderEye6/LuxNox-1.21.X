@@ -41,6 +41,8 @@ public class ModItemGroups {
                         entries.add(ModItems.LUXITE_LEGGINGS);
                         entries.add(ModItems.LUXITE_BOOTS);
 
+                        entries.add(ModItems.LUXITE_PARRYING_DAGGER_ITEM);
+
                     })).build()) ;
 
     public static void registerItemGroups() {

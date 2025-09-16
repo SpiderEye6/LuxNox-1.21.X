@@ -109,5 +109,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('#', ModItems.LUXITE_INGOT)
                 .criterion(hasItem(ModItems.LUXITE_INGOT), conditionsFromItem(ModItems.LUXITE_INGOT))
                 .offerTo(exporter);
+
+// ---------------------------------------------------------------------------------- LUXITE PARRYING DAGGER ---------------------------------------------------
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.LUXITE_PARRYING_DAGGER_ITEM)
+                .pattern("#")
+                .pattern("S")
+                .pattern(" ")
+                .input('#', ModItems.LUXITE_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.LUXITE_INGOT), conditionsFromItem(ModItems.LUXITE_INGOT))
+                .offerTo(exporter);
     }
 }

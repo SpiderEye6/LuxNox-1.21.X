@@ -6,6 +6,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.spidereye.luxnox.LuxNox;
+import net.spidereye.luxnox.item.custom.LuxiteParryingDaggerItem;
 
 public class ModItems {
     // -------------------------------------------------------------- LUXITE ITEMS -----------------------------------------------------------------------------------
@@ -78,6 +79,9 @@ public class ModItems {
     public static final Item LUXITE_BOOTS = registerItem("luxite_boots",
             new ArmorItem(ModArmorMaterials.LUXITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(37))));
+
+    public static final Item LUXITE_PARRYING_DAGGER_ITEM = registerItem("luxite_parrying_dagger",
+            new LuxiteParryingDaggerItem(new Item.Settings().maxDamage(2031)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(LuxNox.MOD_ID, name), item);

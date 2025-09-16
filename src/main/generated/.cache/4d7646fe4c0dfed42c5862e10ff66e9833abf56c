@@ -1,9 +1,10 @@
-// 1.21	2025-09-14T14:01:07.6885109	LuxNox/Recipes
+// 1.21	2025-09-15T23:25:23.086759	LuxNox/Recipes
 3c12cfc3fe4cbfa80023c6316efe1875a2a0f48c data\luxnox\advancement\recipes\misc\luxite_upgrade_smithing_template.json
 463d4ca32e04cae4cdb95b104b4dd7b4b482d552 data\luxnox\recipe\luxite_boots.json
 b07925c76254efa7432ff51f0396a8caf675e81c data\luxnox\advancement\recipes\misc\luxite_dust.json
 71f816c61f42953b7d9a6fc4706cb285ac46d3c9 data\luxnox\recipe\luxite_dust.json
 f39fe8c6c58140909f67175c3bc6629ed2757754 data\luxnox\advancement\recipes\tools\luxite_axe.json
+09bc2258d9e935c1930ee6551d9b8b94670134ca data\luxnox\advancement\recipes\tools\luxite_parrying_dagger.json
 efe9b94ce5a81556c9dc91047ae628802a978fae data\luxnox\advancement\recipes\misc\luxite_chestplate.json
 01107edfb537288f98913a91516216c8f5e39000 data\luxnox\recipe\luxite_upgrade_smithing_template.json
 e82fac618a0e31633af31fc690e4ab363c34c810 data\luxnox\advancement\recipes\misc\luxite_dust_from_luxite_ingot.json
@@ -23,3 +24,4 @@ e6d1b7335b32335c7f91d4e7d5e8fe5657afd862 data\luxnox\recipe\luxite_shovel.json
 b429676cb1f52c7eaf13ac0ea25fbc05480e1039 data\luxnox\recipe\luxite_sword.json
 0febbbac821808124e4a22fb8465c68c01294515 data\luxnox\recipe\luxite_leggings.json
 a4e7f696ead78b4459b0d707a156414357349651 data\luxnox\advancement\recipes\misc\luxite_leggings.json
+f75cac5cf8ac0c1c4e06651b01f71b0ba2bc94bf data\luxnox\recipe\luxite_parrying_dagger.json

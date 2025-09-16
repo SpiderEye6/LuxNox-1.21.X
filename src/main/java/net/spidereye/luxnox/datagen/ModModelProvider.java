@@ -45,5 +45,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.LUXITE_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.LUXITE_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.LUXITE_BOOTS));
+
+
+        itemModelGenerator.register(ModItems.LUXITE_PARRYING_DAGGER_ITEM, Models.HANDHELD);
     }
 }
