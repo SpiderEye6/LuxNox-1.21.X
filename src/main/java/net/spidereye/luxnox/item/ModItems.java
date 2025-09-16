@@ -32,7 +32,6 @@ public class ModItems {
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.LUXITE_INFUSED, -3.0F, 0.0F))));
 
     // -------------------------------------------------------------- LUXITE INFUSED DIAMOND ARMOR  ------------------------------------------------------------------
-
     public static final Item LUXITE_INFUSED_DIAMOND_HELMET = registerItem("luxite_infused_diamond_helmet",
             new ArmorItem(ModArmorMaterials.LUXITE_INFUSED_DIAMOND_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
                     .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(33))));
@@ -78,6 +77,28 @@ public class ModItems {
     public static final Item LUXITE_BOOTS = registerItem("luxite_boots",
             new ArmorItem(ModArmorMaterials.LUXITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(37))));
+
+
+    // Noxite
+
+    // Ingredients
+    public static final Item ENDER_STEEL_INGOT = registerItem("ender_steel_ingot", new Item(new Item.Settings()));
+    public static final Item FADED_NOXITE_INGOT = registerItem("faded_noxite_ingot", new Item(new Item.Settings()));
+    public static final Item RAW_NOXITE = registerItem("raw_noxite", new Item(new Item.Settings()));
+    public static final Item NOXITE_INGOT = registerItem("noxite_ingot", new Item(new Item.Settings()));
+    public static final Item CHARGED_NOXITE_INGOT = registerItem("charged_noxite_ingot", new Item(new Item.Settings()));
+    public static final Item OVERCHARGED_NOXITE_INGOT = registerItem("overcharged_noxite_ingot", new Item(new Item.Settings()));
+
+    public static final Item WARPED_COPPER_INGOT = registerItem("warped_copper_ingot", new Item(new Item.Settings()));
+    public static final Item VOID_SLIME_BALL = registerItem("void_slime_ball", new Item(new Item.Settings()));
+
+    // Tools
+
+    // Armor
+
+
+
+    // Functions
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(LuxNox.MOD_ID, name), item);

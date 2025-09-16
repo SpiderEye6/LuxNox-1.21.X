@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "luxnox:item/faded_noxite_ingot"
+  }
+}

@@ -35,6 +35,14 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.LUXITE_SHOVEL)
                 .add(ModItems.LUXITE_HOE);
 
+        getOrCreateTagBuilder(ModTags.Items.NOXITE)
+                .add(ModItems.ENDER_STEEL_INGOT)
+                .add(ModItems.FADED_NOXITE_INGOT)
+                .add(ModItems.RAW_NOXITE)
+                .add(ModItems.NOXITE_INGOT)
+                .add(ModItems.CHARGED_NOXITE_INGOT)
+                .add(ModItems.OVERCHARGED_NOXITE_INGOT);
+
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.LUXITE_INFUSED_DIAMOND_SWORD)
                 .add(ModItems.LUXITE_SWORD);
