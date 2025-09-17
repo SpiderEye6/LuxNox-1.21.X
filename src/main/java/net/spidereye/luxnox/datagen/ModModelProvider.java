@@ -20,6 +20,7 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+        // Luxite
         itemModelGenerator.register(ModItems.LUXITE_DUST, Models.GENERATED);
         itemModelGenerator.register(ModItems.LUXITE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.LUXITE_UPGRADE_SMITHING_TEMPLATE, Models.GENERATED);
@@ -45,5 +46,16 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.LUXITE_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.LUXITE_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.LUXITE_BOOTS));
+
+        // Noxite
+        itemModelGenerator.register(ModItems.ENDER_STEEL_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FADED_NOXITE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_NOXITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.NOXITE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHARGED_NOXITE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OVERCHARGED_NOXITE_INGOT, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.WARPED_COPPER_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.VOID_SLIME_BALL, Models.GENERATED);
     }
 }

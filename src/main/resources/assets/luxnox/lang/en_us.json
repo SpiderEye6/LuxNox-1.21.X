@@ -25,5 +25,17 @@
   "item.luxnox.luxite_leggings": "Luxite Leggings",
   "item.luxnox.luxite_boots": "Luxite Boots",
 
-  "itemgroup.luxnox.luxite_items_group": "Luxite Items"
+  "itemgroup.luxnox.luxite_items_group": "Luxite Items",
+
+  "item.luxnox.ender_steel_ingot": "Ender Steel Ingot",
+  "item.luxnox.faded_noxite_ingot": "Faded Noxite Ingot",
+  "item.luxnox.raw_noxite": "Raw Noxite",
+  "item.luxnox.noxite_ingot": "Noxite Ingot",
+  "item.luxnox.charged_noxite_ingot": "Charged Noxite Ingot",
+  "item.luxnox.overcharged_noxite_ingot": "Overcharged Noxite Ingot",
+
+  "item.luxnox.warped_copper_ingot": "Warped Copper Ingot",
+  "item.luxnox.void_slime_ball": "Void Slime Ball",
+
+  "itemgroup.luxnox.noxite_items_group": "Noxite Items"
 }

@@ -43,6 +43,23 @@ public class ModItemGroups {
 
                     })).build()) ;
 
+    public static final ItemGroup NOXITE_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(LuxNox.MOD_ID, "noxite_items_group"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.NOXITE_INGOT))
+                    .displayName(Text.translatable("itemgroup.luxnox.noxite_items_group"))
+                    .entries(((displayContext, entries) -> {
+                        entries.add(ModItems.ENDER_STEEL_INGOT);
+                        entries.add(ModItems.FADED_NOXITE_INGOT);
+                        entries.add(ModItems.RAW_NOXITE);
+                        entries.add(ModItems.NOXITE_INGOT);
+                        entries.add(ModItems.CHARGED_NOXITE_INGOT);
+                        entries.add(ModItems.OVERCHARGED_NOXITE_INGOT);
+
+                        entries.add(ModItems.WARPED_COPPER_INGOT);
+                        entries.add(ModItems.VOID_SLIME_BALL);
+
+                    })).build()) ;
+
     public static void registerItemGroups() {
         LuxNox.LOGGER.info("Registering Item Groups for " + LuxNox.MOD_ID);
     }
