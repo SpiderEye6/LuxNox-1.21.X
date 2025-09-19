@@ -1,0 +1,11 @@
+{
+  "type": "luxnox:the_unlit",
+  "generator": {
+    "type": "noise",
+    "settings": "minecraft:floating_islands",
+    "biome_source": {
+      "type": "fixed",
+      "biome": "luxnox:unlit_biome"
+    }
+  }
+}
