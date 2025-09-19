@@ -1,10 +1,9 @@
-// 1.21	2025-09-15T23:25:23.0877591	LuxNox/Tags for minecraft:item
+// 1.21	2025-09-19T09:55:59.6821045	LuxNox/Tags for minecraft:item
 14cedfd344951d4b624faf530a1782e983ccca8a data\minecraft\tags\item\trimmable_armor.json
-600b13e42f63624c11d74913a630df232ca0d43d data\minecraft\tags\item\enchantable\equippable.json
 3840e549ffad4ac73834f1b9b8990fb0ac58f6c2 data\minecraft\tags\item\axes.json
 6c71f5bde83c00e050653740dd98740fded37a94 data\minecraft\tags\item\pickaxes.json
 0d804a52c18c7252ab20c762f4a3cab60db08398 data\minecraft\tags\item\hoes.json
 8c1c88af70b46fe07025ce08e4623d6220886a8e data\minecraft\tags\item\shovels.json
 14cedfd344951d4b624faf530a1782e983ccca8a data\minecraft\tags\item\enchantable\armor.json
+d7137144a24c22b74ed03e3b6342b9a1e642c1c5 data\minecraft\tags\item\swords.json
 e4e6f97db83066b7eea118952e44dd480cfd41ba data\luxnox\tags\item\luxite.json
-d584a7570683d94aabfa92ca8c2eb79ad88a5bb6 data\minecraft\tags\item\swords.json

@@ -2,9 +2,12 @@ package net.spidereye.luxnox;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.event.player.AttackEntityCallback;
 import net.spidereye.luxnox.block.ModBlocks;
+import net.spidereye.luxnox.component.ModDataComponentTypes;
 import net.spidereye.luxnox.item.ModItemGroups;
 import net.spidereye.luxnox.item.ModItems;
+import net.spidereye.luxnox.util.ParryEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -25,5 +28,9 @@ public class LuxNox implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModDataComponentTypes.registerDataComponentTypes();
+
+		AttackEntityCallback.EVENT.register(new ParryEvent());
 	}
 }

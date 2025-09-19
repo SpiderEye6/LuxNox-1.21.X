@@ -37,7 +37,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.LUXITE_INFUSED_DIAMOND_SWORD)
-                .add(ModItems.LUXITE_SWORD);
+                .add(ModItems.LUXITE_SWORD)
+                .add(ModItems.LUXITE_PARRYING_DAGGER_ITEM);
         getOrCreateTagBuilder(ItemTags.PICKAXES)
                 .add(ModItems.LUXITE_INFUSED_DIAMOND_PICKAXE)
                 .add(ModItems.LUXITE_PICKAXE);
@@ -70,8 +71,5 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.LUXITE_CHESTPLATE)
                 .add(ModItems.LUXITE_LEGGINGS)
                 .add(ModItems.LUXITE_BOOTS);
-
-        getOrCreateTagBuilder(ItemTags.EQUIPPABLE_ENCHANTABLE)
-                .add(ModItems.LUXITE_PARRYING_DAGGER_ITEM);
     }
 }

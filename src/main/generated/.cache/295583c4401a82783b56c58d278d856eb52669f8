@@ -1,4 +1,4 @@
-// 1.21	2025-09-15T23:25:23.0937609	LuxNox/Model Definitions
+// 1.21	2025-09-19T09:55:59.6831052	LuxNox/Model Definitions
 11b2cc765381f0ff6d601234f0307b0955c69171 assets\luxnox\models\item\luxite_dust.json
 260bcd81d73cbe22b64e4567e7b3be9601d4056f assets\luxnox\models\item\luxite_chestplate_copper_trim.json
 a7504b1c0520f299aca9d8e4b6bfa871fefc26d4 assets\luxnox\models\item\luxite_infused_diamond_shovel.json
@@ -48,8 +48,8 @@ c76efe50dce7b0c770821f4e32fe6575c7b4736a assets\luxnox\models\item\luxite_infuse
 aa98e62d85a8f406339a95bc0c4d57176a8d4ea0 assets\luxnox\models\item\luxite_boots_lapis_trim.json
 8de6dff8b1c07a6e05201ead6e4f63d77485c5d1 assets\luxnox\models\item\luxite_infused_diamond_boots_copper_trim.json
 8b86741dae9402a11997464a37ce5de39c533e27 assets\luxnox\models\item\luxite_infused_diamond_chestplate_redstone_trim.json
-3a935b1be6e7001f192da093d758c90fbe7528e2 assets\luxnox\models\item\luxite_chestplate_quartz_trim.json
 17cff2b630d0886b79d197446a695ad0edf1bc81 assets\luxnox\models\item\luxite_infused_diamond_boots_iron_trim.json
+3a935b1be6e7001f192da093d758c90fbe7528e2 assets\luxnox\models\item\luxite_chestplate_quartz_trim.json
 5a8dce96d3add273aa6ffb6a8f44e9a13338f858 assets\luxnox\models\item\luxite_chestplate.json
 eb3f79e97379c4863aac992d8d9eea3a62fc5089 assets\luxnox\models\item\luxite_parrying_dagger.json
 3d8af52c07c72c06cba932bdba9a5931dfca8b23 assets\luxnox\models\item\luxite_infused_diamond_boots_emerald_trim.json
