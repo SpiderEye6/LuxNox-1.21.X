@@ -5,9 +5,11 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.player.AttackEntityCallback;
 import net.spidereye.luxnox.block.ModBlocks;
 import net.spidereye.luxnox.component.ModDataComponentTypes;
+import net.spidereye.luxnox.datagen.ModRegistryDataGenerator;
 import net.spidereye.luxnox.item.ModItemGroups;
 import net.spidereye.luxnox.item.ModItems;
 import net.spidereye.luxnox.util.ParryEvent;
+import net.spidereye.luxnox.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -30,6 +32,8 @@ public class LuxNox implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModDataComponentTypes.registerDataComponentTypes();
+
+		ModWorldGeneration.generateModWorldGen();
 
 		AttackEntityCallback.EVENT.register(new ParryEvent());
 	}
